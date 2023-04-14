@@ -7,9 +7,12 @@
   "types": "dist/esm/index.d.ts",
   "scripts": {
     "build": "yarn generate && yarn compile:esm && yarn compile:cjs",
+    "clean:dist": "rm -r ./dist",
     "compile:esm": "tsc",
     "compile:cjs": "tsc --module commonjs --outDir dist/cjs",
     "generate": "svgr -d ./src/lib ./src/svg --typescript",
+    "prebuild": "yarn clean:dist",
+    "release": "yarn build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Gutiérrez",
