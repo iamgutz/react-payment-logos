@@ -1,0 +1,53 @@
+{
+  "name": "react-payment-logos",
+  "version": "1.0.0",
+  "description": "React components library to display logos of major payment brands and methods.",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "yarn generate && yarn compile:esm && yarn compile:cjs",
+    "compile:esm": "tsc",
+    "compile:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "generate": "svgr -d ./src/lib ./src/svg --typescript",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Gutiérrez",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "brands",
+    "card",
+    "components",
+    "credit",
+    "credit-card",
+    "icon",
+    "icons",
+    "logos",
+    "mastercard",
+    "payment",
+    "paypal",
+    "react",
+    "react-component",
+    "svg",
+    "typescript",
+    "visa"
+  ],
+  "devDependencies": {
+    "@svgr/cli": "^7.0.0",
+    "@types/react": "^18.0.35",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
