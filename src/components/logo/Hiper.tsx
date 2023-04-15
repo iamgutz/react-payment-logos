@@ -8,8 +8,8 @@ const SvgHiper = (props: SVGProps<SVGSVGElement>) => (
     x={0}
     y={0}
     viewBox="0 0 780 500"
-    width={props.width || 24}
-    height={props.height || 24}
+    width={48}
+    height={48}
     {...props}
   >
     <style>{".hiper_svg__st0{fill:#f37421}"}</style>

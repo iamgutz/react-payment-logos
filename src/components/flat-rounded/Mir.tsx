@@ -8,8 +8,8 @@ const SvgMir = (props: SVGProps<SVGSVGElement>) => (
     x={0}
     y={0}
     viewBox="0 0 780 500"
-    width={props.width || 24}
-    height={props.height || 24}
+    width={48}
+    height={48}
     {...props}
   >
     <style>{".mir_svg__st1{fill:#37a72e}"}</style>

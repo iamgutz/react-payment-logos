@@ -4,8 +4,9 @@ const SvgUnionpay = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={props.width || 24}
-    height={props.height || 24}
+    width={48}
+    height={48}
+    viewBox="0 0 780 500"
     {...props}
   >
     <path

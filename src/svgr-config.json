@@ -1,5 +1,6 @@
 {
   "typescript": true,
+  "removeViewBox": true,
   "svgProps": {
     "width": "{props.width || 24}",
     "height": "{props.height || 24}"
