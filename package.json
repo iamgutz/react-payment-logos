@@ -10,8 +10,9 @@
     "clean:dist": "rm -r ./dist",
     "compile:esm": "tsc",
     "compile:cjs": "tsc --module commonjs --outDir dist",
-    "generate": "svgr -d ./src/lib ./src/svg --icon --typescript",
+    "generate": "svgr -d ./src/components ./src/svg --config-file ./src/svgr-config.json",
     "prebuild": "yarn clean:dist",
+    "prerelease": "npm version patch",
     "release": "yarn build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
