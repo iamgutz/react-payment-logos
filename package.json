@@ -1,6 +1,6 @@
 {
   "name": "react-payment-logos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React components library to display logos of major payment brands and methods.",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
