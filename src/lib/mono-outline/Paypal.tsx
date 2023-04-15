@@ -1,7 +1,13 @@
 import * as React from "react";
 import { SVGProps } from "react";
 const SvgPaypal = (props: SVGProps<SVGSVGElement>) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width={780} height={500} {...props}>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    viewBox="0 0 780 500"
+    {...props}
+  >
     <path
       fill="none"
       stroke="#393939"

@@ -4,8 +4,9 @@ const SvgMaestro = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={780}
-    height={500}
+    width="1em"
+    height="1em"
+    viewBox="0 0 780 500"
     {...props}
   >
     <path d="M40 0h700c22.092 0 40 17.909 40 40v420c0 22.092-17.908 40-40 40H40c-22.091 0-40-17.908-40-40V40C0 17.909 17.909 0 40 0z" />

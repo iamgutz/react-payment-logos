@@ -4,8 +4,9 @@ const SvgDiners = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={780}
-    height={500}
+    width="1em"
+    height="1em"
+    viewBox="0 0 780 500"
     {...props}
   >
     <path fill="#0079BE" d="M0 0h780v500H0z" />

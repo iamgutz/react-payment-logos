@@ -5,6 +5,8 @@ const SvgMir = (props: SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
     viewBox="0 0 780 500"
+    width="1em"
+    height="1em"
     {...props}
   >
     <path

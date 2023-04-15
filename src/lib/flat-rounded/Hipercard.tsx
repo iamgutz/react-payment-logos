@@ -4,8 +4,8 @@ const SvgHipercard = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={780}
-    height={500}
+    width="1em"
+    height="1em"
     viewBox="0 0 780 501"
     {...props}
   >

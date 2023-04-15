@@ -1,16 +1,16 @@
 {
   "name": "react-payment-logos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components library to display logos of major payment brands and methods.",
-  "main": "dist/cjs/index.js",
+  "main": "dist/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/esm/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "yarn generate && yarn compile:esm && yarn compile:cjs",
     "clean:dist": "rm -r ./dist",
     "compile:esm": "tsc",
-    "compile:cjs": "tsc --module commonjs --outDir dist/cjs",
-    "generate": "svgr -d ./src/lib ./src/svg --typescript",
+    "compile:cjs": "tsc --module commonjs --outDir dist",
+    "generate": "svgr -d ./src/lib ./src/svg --icon --typescript",
     "prebuild": "yarn clean:dist",
     "release": "yarn build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -4,8 +4,9 @@ const SvgElo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
-    width={780}
-    height={500}
+    width="1em"
+    height="1em"
+    viewBox="0 0 780 500"
     {...props}
   >
     <path d="M41.68 0h698.14c23.027 0 41.68 18.983 41.68 42.42v414.66c0 23.437-18.652 42.42-41.68 42.42H41.68C18.652 499.5 0 480.517 0 457.08V42.42C0 18.983 18.652 0 41.68 0z" />
