@@ -8,15 +8,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.3.1
+        uses: actions/checkout@v3
   
       - name: Install and Build
         run: |
-          yarn
-          yarn build-storybook
+          npm ci
+          npm run build-storybook
         
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+        uses: JamesIves/github-pages-deploy-action@4
         with:
           branch: gh-pages
           folder: storybook-static
