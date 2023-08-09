@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
+  "homepage": "http://iamgutz.github.io/react-payment-logos",
   "scripts": {
     "build": "yarn generate && yarn compile:esm && yarn compile:cjs",
     "clean:dist": "rm -r ./dist",
@@ -63,6 +64,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@svgr/cli": "^7.0.0",
     "@types/react": "^18.0.35",
+    "gh-pages": "^5.0.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
