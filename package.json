@@ -17,7 +17,9 @@
     "release": "yarn build && npm publish",
     "storybook": "storybook dev -p 6006",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "deploy-storybook": "gh-pages -d storybook-static",
+    "pre-deploy": "yarn build-storybook"
   },
   "author": "Michael Gutiérrez",
   "license": "MIT",
