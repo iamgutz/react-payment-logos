@@ -1,6 +1,6 @@
 {
   "name": "react-payment-logos",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "React components library to display logos of major payment brands and methods.",
   "main": "dist/index.js",
   "module": "dist/esm/index.js",
@@ -25,7 +25,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/iamgutz/react-payment-logos"
   },
   "peerDependencies": {
     "react": ">=16"
